@@ -1,3 +1,67 @@
-/**
- * Your CSS goes here.
- */
+/*
+  * Your CSS goes here. 
+*/
+
+
+body{
+   font-family: 'DynaPuff', cursive;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Rubik Dirt', cursive;
+   background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-award-ceremony-black-gold-style-background-material-picture-image_978546.jpg");
+   background-repeat: no-repeat,repeat;
+   background-position: center;
+   background-color:rgb(3, 0, 0);
+   color: #c8b90f;
+   background-size:30%;
+   /* width: 100%; */
+   /* max-width: 700px; */
+}
+h1{
+color: #c8b90f;
+font-weight: bold;
+font-size: 50px;
+}
+.input{
+font-family: 'DynaPuff', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Dirt', cursive;
+background: rgba(138, 133, 133, 0.2);
+color: #c8b90f;
+border: none;
+width:60px;
+border-radius: 10px;
+margin: 5px;
+padding: 5px;
+
+}
+
+.con{
+display: flex;         
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  height: 500px;
+  align-content: space-around;
+
+}
+
+
+.madLibsEdit,
+.madLibsPreview{
+border: 2px solid rgb(180, 173, 173);
+border-radius: 10px;
+background: rgba(138, 133, 133, 0.2);
+height: 150px;
+width: 600px;
+margin: 5px;
+text-align: center; 
+
+
+}
+
+.edit{
+margin: 10x;
+padding: 10px;
+}
